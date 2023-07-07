@@ -1,4 +1,6 @@
 import React, { useEffect,useState} from "react";
+import { Link } from "react-router-dom";
+
 const Usuario = () =>{
     const [ userName , setUserName ] = useState("")
     const [terminoContrato,setTerminoContrato] = useState(false)
@@ -23,7 +25,9 @@ const Usuario = () =>{
             <input type="checkbox" name="terminos" checked={terminoContrato}  onChange={handleTermino} />
             <label htmlFor="terminos"> Acepto términos de contrato </label> <br/>
             
-            <button type="button">Guardar nombre de usuario</button>
+            <button type="button">Guardar nombre de usuario</button> <br/>
+            <Link to="/">Ir al Inicio</Link>
+
         </>
     )
 
