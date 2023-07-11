@@ -7,7 +7,8 @@ const Inicio = () =>{
         <h1>Inicio</h1>
         <div>
             <Link to="/perfil">Ir al perfil</Link> <br/>
-            <Link to="/usuario">Ir al Usuario</Link>
+            <Link to="/usuario">Ir al Usuario</Link> <br/>
+            <Link to="/ejercicio">Ir al Ejercicio</Link>
         </div>
         </>
     )

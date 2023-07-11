@@ -17,7 +17,7 @@ const Usuario = () =>{
         <>
             <h1>Usuario</h1>
             <label htmlFor="usuario">Indique nombre de usuario</label>
-            <input type="text" name="usuario" placeholder="Pepa" onChange={handleUser} /> <br />
+            <input type="text" name="usuario" placeholder="Nombre" onChange={handleUser} /> <br />
             {userName === "billgates" &&
                 <p>Ya existe</p>
             }
