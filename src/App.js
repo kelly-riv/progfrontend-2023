@@ -5,6 +5,7 @@ import Perfil from "./components/Perfil";
 import Usuario from "./components/Usuario";
 import Ejercicio from "./components/Ejercicio";
 
+
 const App = ()=>{
 
   return(

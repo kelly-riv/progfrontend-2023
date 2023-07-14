@@ -28,13 +28,14 @@ const Ejercicio = () =>{
         <>
         <div class="Container">
         <h1>Ejercicio</h1>
-        <label htmlFor="usuario">Indique nombre de usuario</label>
+        <label htmlFor="usuario">Indique el número para su cálculo</label>
         <input type="number" name="usuario" placeholder="Número" onChange={handleNumber} /> <br />
         <button type="button" onClick={handleFactorial}>Calcular factorial</button> <br/>
         {resultado != 0 &&
                 <p>El factorial de {numValue} es: {resultado}</p>
             }
         </div>
+        <Link to="/">Ir al Inicio</Link>
         </>
     )
 }
